@@ -1,0 +1,8 @@
+node_modules/
+bun.lock
+.env
+.env.*
+.npmrc
+.config/
+config.local.json
+.DS_Store
