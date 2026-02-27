@@ -4,6 +4,8 @@ Bun-based MCP server for the [Koleo](https://koleo.pl) Polish train timetable AP
 
 It exposes the same 14 tools as the Python MCP, including stations, boards, connections, train routes, seat data, and realtime timetable.
 
+Inspired by the original Python implementation: [MBratkowski/koleo-mcp](https://github.com/MBratkowski/koleo-mcp).
+
 ## Requirements
 
 - Supported Bun: `1.3.x` (tested on `1.3.11`)
