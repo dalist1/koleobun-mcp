@@ -1,12 +1,13 @@
 {
   "name": "koleobun-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "license": "Apache-2.0",
   "bin": {
-    "koleobun-mcp": "./src/server.ts"
+    "koleobun-mcp": "./bin/koleobun-mcp"
   },
   "files": [
+    "bin",
     "src",
     "README.md",
     "LICENSE"
