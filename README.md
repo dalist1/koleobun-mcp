@@ -6,16 +6,24 @@ It exposes the same 14 tools as the Python MCP, including stations, boards, conn
 
 ## Requirements
 
-- Bun 1.0+
+- Supported Bun: `1.3.x` (tested on `1.3.11`)
 
 ## Quick start
+
+Run directly from npm with bunx:
+
+```bash
+bunx koleobun-mcp
+```
+
+If the command starts without crashing, the MCP server is ready.
+
+## Local development
 
 ```bash
 bun install
 bun run start
 ```
-
-If the command starts without crashing, the MCP server is ready.
 
 ## Quality checks
 
@@ -28,7 +36,7 @@ bun run typecheck
 ## Test with MCP Inspector
 
 ```bash
-bunx @modelcontextprotocol/inspector bun run start
+bunx @modelcontextprotocol/inspector bunx koleobun-mcp
 ```
 
 Then call these tools:
@@ -47,8 +55,8 @@ Add this to `claude_desktop_config.json`:
 {
   "mcpServers": {
     "koleo": {
-      "command": "bun",
-      "args": ["/absolute/path/to/koleobun-mcp/src/server.ts"]
+      "command": "bunx",
+      "args": ["koleobun-mcp"]
     }
   }
 }
