@@ -8,7 +8,7 @@ Inspired by the original Python implementation: [MBratkowski/koleo-mcp](https://
 
 ## Requirements
 
-- Supported Bun: `1.3.x` (tested on `1.3.11`)
+- Supported Bun: `1.4.x` (tested on `1.4.0`)
 
 ## Quick start
 
